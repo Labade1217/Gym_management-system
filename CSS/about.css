@@ -1,0 +1,82 @@
+body {
+    background-image: url(../ASSETS/Images/cta-bg.jpg);
+}
+
+button{
+    border-radius: 4px;
+    width: 120px;
+    height: 35px;
+    font-size: 25px;
+    border: none;
+    background-color: red;
+    color: white;
+} 
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(240, 63, 63);
+    border: 2px solid white;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+h2{
+    color: white;
+}
+
+.schedule {
+    width: 100%;
+    height: 400px;
+}
+
+table {
+    height: 480px;
+    width: 900px;
+    margin-top: 50px;
+    border-collapse: collapse;
+    background-color: rgb(218, 208, 208);
+}
+
+th , td {
+    border: 0.5px solid rgb(8, 8, 8);
+    text-align: center;
+    color: rgb(100, 99, 99);
+    padding: 30px 30px;
+}
+th{
+    font-size: 15px;
+}
+td {
+    font-size: 15px;
+}
+.head {
+    background-color: rgb(202, 193, 193);
+    font-family: 'lato', sans-serif;
+    font-size: 15px;
+    margin-top: 40px;
+    height: 480px;
+    width: 900px;
+    margin: auto;
+}
+
+.head h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+.head h2{
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+.head p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.line {
+    margin-left: 425px;
+    padding: 15px 15px;
+}

@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(196, 173, 173);
+}
+
+.back {
+        border-radius: 4px;
+        width: 120px;
+        height: 35px;
+        font-size: 25px;
+        border: none;
+        background-color: red;
+        color: white;
+} 
+
+.back:hover {
+        cursor: pointer;
+        background-color: rgb(240, 63, 63);
+        border: 2px solid white;
+    }
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.form {
+    background-image: url("../ASSETS/Images/body.jpg");
+    background-repeat: no-repeat;
+    width: 400px;
+    padding: 30px;
+    color: antiquewhite;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 2px 2px 6px rgb(94, 71, 71);
+}
+
+label {
+    font-size: 23px;
+
+}
+
+input , textarea{
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
+
+}
+
+.row {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.label {
+    width: 30%;
+}
+
+.input{
+    width: 70%;
+}
+
+.Submit {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: rgba(52, 172, 5, 0.747);
+    color: rgb(252, 248, 252);
+    cursor: pointer;
+    font-weight: 600;
+}
+.Submit:hover{
+    background-color: rgb(246, 247, 246);
+    color: green ;
+}
+iframe {
+    margin-top: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (max-width:450px) {
+    .back {
+        width: 50px;
+        height: 25px;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .form {
+        width: 330px;
+    }
+    label {
+        font-size: 20px;
+    
+    }
+    input , textarea{
+        font-size: 18px;
+        padding: 3px;
+        width: 120%;
+    }
+    .row {
+        margin-bottom: 30px;
+        display:block;
+    }
+    
+}

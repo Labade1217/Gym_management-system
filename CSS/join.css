@@ -1,0 +1,224 @@
+/* body {
+    background-color: rgb(196, 173, 173);
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.form {
+    background-image: url("../ASSETS/Images/body.jpg");
+    color: white;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 0px;
+    box-shadow: 2px 2px 6px rgb(10, 10, 10);
+}
+
+.main {
+    margin-bottom: 30px;
+}
+label {
+    font-size: 20px;    
+}
+.input1{
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
+}
+.main{
+    display: flex;
+}
+.label{
+    width: 30%;
+}
+.input{
+    width: 65%;
+   
+}
+img{
+
+    border-radius: 50px;
+    height:60px;
+    width: 60px;
+    
+}
+.back {
+    width: 120px;
+    height: 30px;
+    font-size: 24px;
+    font-weight: 500;
+   margin: 5px;
+
+}
+
+.back:hover {
+    background-color: red;
+    color: rgb(248, 245, 245);
+    cursor: pointer;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.male {
+      font-size: 20px;
+      margin-left: 10px;
+}
+.female {
+    font-size: 20px;
+    margin-left: 10px;
+}
+#male{
+margin: 10px;
+}
+
+
+@media screen and (max-width:425px) {
+    .form {
+        width: 370px;
+        padding: 15px;
+        margin-top: 25px;
+    }
+    .back {
+        width: 70px;
+        height: 25px;
+        font-size: 15px;
+    }
+    label {
+        font-size: 18px;
+    }
+    .input1{
+        font-size: 15px;
+    }
+    .main{
+        display: block;
+    }
+    .input{
+        width: 90%;
+    }
+    .male {
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+    .female {
+      margin-top: 5px;
+      margin-left: 15px;
+    }
+    #male{
+    margin: 10px;
+    }
+
+    
+} */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    background-image:../;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 25px;
+    background: #d6eef1;
+}
+
+.container form {
+    width: 700px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.container form .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container form .row .col {
+    flex: 1 1 250px;
+}
+
+.col .title {
+    font-size: 20px;
+    color: rgb(237, 55, 23);
+    padding-bottom: 5px;
+}
+
+.col .inputBox {
+    margin: 15px 0;
+}
+
+.col .inputBox label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.col .inputBox input,
+.col .inputBox select {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.col .inputBox input:focus,
+.col .inputBox select:focus {
+    border: 1px solid #000;
+}
+
+.col .flex {
+    display: flex;
+    gap: 15px;
+}
+
+.col .flex .inputBox {
+    flex: 1 1;
+    margin-top: 5px;
+}
+
+.col .inputBox img {
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+.container form .submit_btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: rgb(1, 143, 34);
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.container form .submit_btn:hover {
+    background: #3d17fb;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    display: none;
+}
